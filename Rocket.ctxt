@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Rocket
+comment0.text=\r\n\ Rockets\ are\ high-damaging\ projectiles\ that\ home\ towards\ a\ target.\r\n\ \r\n\ @author\ \ Freeman\ Wang.\r\n\ @version\ 2023-06-17\r\n
+comment1.params=
+comment1.target=Rocket()
+comment1.text=\r\n\ Creates\ a\ rocket\ with\ 10\ speed,\ 100\ damage,\ 5\ accuracy,\ 5\ degree\ rotation\ rate,\ 100\ ms\ homing\ delay.\r\n
+comment2.params=speed\ damage\ accuracy
+comment2.target=Rocket(int,\ int,\ int)
+comment2.text=\r\n\ Creates\ a\ rocket\ that\ has\ a\ 5\ degree\ rotation\ rate,\ 100ms\ homing\ delay.\r\n\ \r\n\ @param\ speed\ \ \ \ \ The\ speed\ of\ the\ rocket.\r\n\ @param\ damage\ \ \ \ How\ much\ damage\ the\ Rocket\ deals.\r\n\ @param\ accuracy\ \ How\ accurate\ the\ rocket\ is\ at\ initial\ launch.\ Higher\ is\ less\ accurate,\ 0\ is\ most\ accurate.\ A\ bit\ of\ an\ useless\ variable\ though.\r\n
+comment3.params=speed\ damage\ accuracy\ rotationRate\ homingDelay
+comment3.target=Rocket(int,\ int,\ int,\ int,\ int)
+comment3.text=\r\n\ Creates\ a\ rocket.\r\n\ \r\n\ @param\ speed\ \ \ \ \ The\ speed\ of\ the\ rocket.\r\n\ @param\ damage\ \ \ \ The\ damage\ the\ rocket\ deals.\r\n\ @param\ accuracy\ \ The\ accuracy\ of\ the\ rocket.\ 0\ is\ most\ accurate,\ higher\ is\ less\ accurate.\r\n\ @param\ rotationRate\ \ Maximum\ rotation\ change\ every\ rotation\ update.\r\n\ @param\ homingDelay\ \ \ The\ delay\ betwen\ rotation\ updates,\ in\ milliseconds.\r\n
+comment4.params=world
+comment4.target=void\ addedToWorld(greenfoot.World)
+comment5.params=
+comment5.target=void\ act()
+comment6.params=
+comment6.target=greenfoot.Actor\ collisionCheck()
+comment7.params=target\ rotationRate\ delay
+comment7.target=void\ target(greenfoot.Actor,\ int,\ int)
+comment7.text=\r\n\ Modified\ version\ of\ target()\ from\ the\ Projectile\ class.\ Does\ not\ directly\ turn\ towards\ the\ [target]\ but\ does\ it\ in\r\n\ multiple\ rotation\ updates.\r\n\ \r\n\ @param\ target\ \ \ \ \ \ \ \ The\ Actor\ to\ target.\r\n\ @param\ rotationRate\ \ Maximum\ change\ of\ rotation\ every\ rotation\ update.\r\n\ @param\ delay\ \ \ \ \ \ \ \ \ The\ delay\ between\ rotation\ updates,\ in\ milliseconds.\r\n
+numComments=8

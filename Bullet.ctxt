@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Bullet
+comment0.text=\r\n\ Class\ for\ bullets.\ I\ don't\ think\ it\ has\ any\ use\ after\ I\ cleaned\ up\ some\ of\ my\ code,\ but\r\n\ I'm\ not\ going\ to\ change\ it.\r\n\ \r\n\ @author\ \ Freeman\ Wang\r\n\ @version\ 2023-06-17\r\n
+comment1.params=speed\ damage\ accuracy
+comment1.target=Bullet(int,\ int,\ int)
+comment1.text=\r\n\ Creates\ a\ bullet.\r\n\ \r\n\ @param\ speed\ \ \ \ \ The\ speed\ of\ the\ bullet.\r\n\ @param\ damage\ \ \ \ The\ damage\ of\ the\ bullet.\r\n\ @param\ accuracy\ \ The\ maximum\ degree\ offset\ from\ the\ initial\ rotation.\ An\ accuracy\ of\ 0\ is\ 100%\ accurate.\r\n
+numComments=2

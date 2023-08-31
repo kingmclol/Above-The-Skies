@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Projectile
+comment0.text=\r\n\ Projectile\ class.\ Projectiles\ are\ objects\ that\ can\ move\ around\ and\r\n\ deal\ damage.\r\n\ \r\n\ @author\ \ Freeman\ Wang\ \r\n\ @version\ 2023-06-17\r\n
+comment1.params=speed\ damage\ accuracy
+comment1.target=Projectile(int,\ int,\ int)
+comment1.text=\r\n\ Creates\ a\ projectile.\r\n\ \r\n\ @param\ speed\ \ \ \ \ The\ speed\ of\ the\ projecile.\r\n\ @param\ damage\ \ \ \ The\ amount\ of\ damage\ the\ projectile\ deals.\r\n\ @param\ accuracy\ \ The\ maximum\ degree\ offset\ from\ the\ initial\ rotation.\ An\ accuracy\ of\ 0\ is\ 100%\ accurate.\r\n
+comment2.params=target
+comment2.target=void\ target(greenfoot.Actor)
+comment2.text=\r\n\ Targets\ the\ [target]\ by\ making\ the\ projectile\ turn\ toward\ the\ [target]'s\ position.\r\n\ If\ the\ [target]\ does\ not\ exist\ within\ the\ world,\ nothing\ happens.\r\n\ \r\n\ @param\ target\ \ \ \ The\ actor\ to\ target.\r\n
+comment3.params=rotation\ offset
+comment3.target=int\ addOffset(int,\ int)
+comment3.text=\r\n\ Given\ the\ initial\ [rotation],\ return\ [rotation]\ +\ or\ -\ a\ random\ int\ from\ 0\ to\ [offset].\r\n\ \r\n\ @param\ rotation\ \ The\ initial\ rotation.\r\n\ @param\ offset\ \ \ \ The\ maximum\ value\ to\ add\ or\ subtract\ from\ the\ rotation.\ Generally\ is\ the\ accuracy\ variable.\r\n
+comment4.params=trailSize\ trailLifespan\ trailDelay
+comment4.target=void\ leaveTrail(int,\ int,\ int)
+comment4.text=\r\n\ Leaves\ a\ gray\ Particle\ trail,\ every\ [trailDelay]\ milliseconds.\r\n\ \r\n\ @param\ trailSize\ \ \ \ \ The\ length\ and\ width\ of\ the\ trail\ Particle.\r\n\ @param\ trailLifespan\ How\ long\ the\ Particle\ hsould\ be\ visible\ for.\r\n\ @param\ trailDelay\ \ \ \ The\ interval\ between\ adding\ a\ Particle,\ in\ milliseconds.\r\n
+comment5.params=trailSize\ trailLifespan\ trailColor\ trailDelay
+comment5.target=void\ leaveTrail(int,\ int,\ greenfoot.Color,\ int)
+comment5.text=\r\n\ Leaves\ a\ Particle\ trail,\ every\ [trailDelay]\ milliseconds.\r\n\ \r\n\ @param\ trailSize\ \ \ \ \ The\ length\ and\ width\ of\ the\ trail\ Particle.\r\n\ @param\ trailLifespan\ How\ long\ the\ Particle\ hsould\ be\ visible\ for.\r\n\ @param\ trailColor\ \ \ \ The\ colour\ of\ the\ Particle\ to\ leave.\r\n\ @param\ trailDelay\ \ \ \ The\ interval\ between\ adding\ a\ Particle,\ in\ milliseconds.\r\n
+comment6.params=
+comment6.target=greenfoot.Actor\ collisionCheck()
+comment6.text=\r\n\ Abstract\ method\ for\ projectiles\ to\ check\ if\ they've\ hit\ an\ actor.\r\n\ Each\ projectile\ should\ be\ checking\ various\ points\ and\ return\ the\ actor\ they\ have\ hit.\r\n
+numComments=7

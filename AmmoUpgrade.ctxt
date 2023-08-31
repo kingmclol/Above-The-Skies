@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=AmmoUpgrade
+comment0.text=\r\n\ An\ RPM\ upgrade\ for\ the\ player,\ making\ the\ player\ shoot\ faster.\r\n\ \r\n\ @author\ \ Freeman\ Wang\ \r\n\ @version\ 2023-06-15\r\n
+comment1.params=
+comment1.target=AmmoUpgrade()
+comment1.text=\r\n\ Sets\ the\ gifImage\ to\ the\ proper\ image,\ scales\ it\ x2,\ sets\ speed\ to\ 2.\r\n
+comment2.params=actor
+comment2.target=void\ powerup(greenfoot.Actor)
+comment2.text=\r\n\ Powerups\ the\ actor/player\ by\ increasing\ the\ RPM\ by\ 100.\r\n\ \r\n\ @param\ actor\ The\ player.\r\n
+numComments=3

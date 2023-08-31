@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Particle
+comment0.text=\r\n\ Creates\ a\ circular\ actor\ in\ the\ world\ which\ loses\ transparency\ over\ time,\ removing\ itself\ when\ fully\ transparent.\r\n\ \r\n\ @author\ \ Freeman\ Wang\r\n\ @version\ 2023-06-13\r\n
+comment1.params=size
+comment1.target=Particle(int)
+comment1.text=\r\n\ Creates\ a\ particle\ of\ [size]\ length\ and\ width,\ 600ms\ lifespan,\ 5\ transparency\ increment\ Gray\ colour.\r\n\ \r\n\ @param\ size\ \ The\ length\ and\ Width\ of\ the\ particle.\r\n
+comment2.params=size\ lifespan
+comment2.target=Particle(int,\ int)
+comment2.text=\r\n\ Creates\ a\ particle\ of\ [size]\ length\ and\ width,\ [lifespan]\ ms\ ifespan,\ 5\ transparency\ increment,\ Gray\ color.\r\n\ \r\n\ @param\ size\ \ \ \ \ \ The\ length\ and\ width\ of\ the\ particle.\ \r\n\ @param\ lifespan\ \ How\ long\ the\ particle\ will\ exist,\ in\ milliseconds.\r\n
+comment3.params=size\ lifespan\ increment
+comment3.target=Particle(int,\ int,\ int)
+comment3.text=\r\n\ Creates\ a\ particle\ of\ [size]\ length\ and\ width,\ [lifespan]\ ms\ lifespan,\ [increment]\ transparency\ increment,\ Gray\ colour.\r\n\ \r\n\ @param\ size\ \ \ \ \ \ The\ length\ and\ width\ of\ the\ particle.\r\n\ @param\ lifespan\ \ How\ long\ the\ particle\ will\ exist,\ in\ milliseconds.\r\n\ @param\ increment\ How\ much\ transparency\ lost\ per\ increment.\r\n
+comment4.params=size\ lifespan\ color
+comment4.target=Particle(int,\ int,\ greenfoot.Color)
+comment4.text=\r\n\ Creates\ a\ particle\ of\ [size]\ length\ and\ width,\ [lifespan]\ ms\ lifespan,\ 5\ transparency\ increment,\ [color]\ color.\r\n\r\n\ @param\ size\ \ \ \ \ \ The\ length\ and\ width\ of\ the\ particle.\r\n\ @param\ lifespan\ \ How\ long\ the\ particle\ will\ exist,\ in\ milliseconds.\r\n\ @param\ color\ \ \ \ \ The\ color\ of\ the\ particle.\ \r\n
+comment5.params=size\ lifespan\ increment\ color
+comment5.target=Particle(int,\ int,\ int,\ greenfoot.Color)
+comment5.text=\r\n\ Creates\ a\ particle\ of\ [size]\ length\ and\ width,\ [lifespan]\ ms\ lifespan,\ [increment]\ transparency\ increment,\ [color]\ color.\r\n\ \r\n\ @param\ size\ \ \ \ \ \ The\ length\ and\ width\ of\ the\ particle.\r\n\ @param\ lifespan\ \ How\ long\ the\ particle\ will\ exist,\ in\ milliseconds.\r\n\ @param\ increment\ How\ much\ transparency\ is\ lost\ per\ increment.\r\n\ @param\ color\ \ \ \ \ The\ color\ of\ the\ particle.\r\n
+comment6.params=w
+comment6.target=void\ addedToWorld(greenfoot.World)
+comment7.params=
+comment7.target=void\ act()
+comment8.params=
+comment8.target=void\ decay()
+comment8.text=\r\n\ Decrease\ the\ transparency\ of\ the\ particle\ by\ [increment]\ units\ every\ [msPerDecay]\ milliseconds.\r\n
+numComments=9

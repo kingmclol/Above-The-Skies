@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=ShieldBar
+comment0.text=\r\n\ A\ shield\ bar,\ which\ is\ literally\ a\ health\ bar\ but\ blue.\ And\ has\ a\ cool\ animation.\r\n\ \r\n\ @author\ \ Freeman\ Wang\r\n\ @version\ 2023-06-16\r\n
+comment1.params=owner\ scale\ maxShield\ hideAtDeath
+comment1.target=ShieldBar(greenfoot.Actor,\ double,\ int,\ boolean)
+comment1.text=\r\n\ Creates\ a\ ShieldBar.\ Seems\ familiar...\r\n\ \r\n\ @param\ owner\ \ \ \ \ \ \ \ \ The\ actor\ the\ ShieldBar\ is\ tied\ to.\r\n\ @param\ scale\ \ \ \ \ \ \ \ \ How\ much\ the\ gif\ should\ be\ scaled\ by.\r\n\ @param\ maxShield\ \ \ \ \ The\ max\ shield\ of\ the\ ShieldBar.\r\n\ @param\ hideAtDeath\ \ \ Determines\ if\ this\ should\ be\ hidden\ at\ owner's\ death.\r\n
+comment2.params=world
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment3.params=
+comment3.target=void\ update()
+comment3.text=\r\n\ Updates\ the\ ShieldBar's\ image.\r\n
+comment4.params=
+comment4.target=void\ act()
+numComments=5

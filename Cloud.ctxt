@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Cloud
+comment0.text=\r\n\ A\ cloud\ actor\ with\ a\ GIF\ as\ it's\ image.\ Randomized\ speed\ and\ scale.\ Moves\ down.\ Removes\ itself\ when\ at\ edge.\r\n\ \r\n\ @author\ \ Freeman\ Wang\ \r\n\ @version\ 2023-06-13\r\n
+comment1.params=
+comment1.target=Cloud()
+comment2.params=w
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=GifImage\ chooseCloudGif()
+comment4.text=\r\n\ Chooses\ a\ random\ cloud\ gif\ from\ my\ set\ of\ cloud\ gifs.\r\n
+numComments=5

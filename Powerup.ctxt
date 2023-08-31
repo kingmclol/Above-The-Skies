@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Powerup
+comment0.text=\r\n\ Abstract\ cass\ for\ powerups\ with\ a\ gifImage\ as\ their\ image.\r\n\ Moves\ down\ every\ frame,\ and\ once\ it\ touches\ a\ player\ it\ will\ powerup()\ the\ player.\r\n\ \r\n\ @author\ \ Freeman\ Wang\r\n\ @version\ 2023-06-15\r\n
+comment1.params=speed
+comment1.target=void\ moveDown(int)
+comment1.text=\r\n\ Moves\ the\ powerup\ down\ [speed]\ pixels,\ kind\ of\ like\ move()\ but\ downwards.\r\n\ \r\n\ @param\ speed\ How\ many\ pixels\ to\ move\ down.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=scale
+comment3.target=void\ scaleGif(int)
+comment3.text=\r\n\ Scales\ every\ image\ in\ the\ gif\ by\ a\ multiplier\ of\ [scale].\r\n\ \r\n\ @param\ scale\ How\ much\ to\ scale\ the\ powerup's\ gif\ by.\r\n
+comment4.params=actor
+comment4.target=void\ powerup(greenfoot.Actor)
+comment4.text=\r\n\ Abstract\ method\ that\ should\ be\ implemented\ in\ a\ way\ that\ powerups\ the\ player\ by\ calling\r\n\ the\ correct\ player\ instance\ method.\r\n
+numComments=5
